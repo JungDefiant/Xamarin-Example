@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Example_Xamarin_App.DiceRollerPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Roll A Die!"
+                StyleClass="direction"
+                VerticalOptions="Center" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Label x:Name="Result"
+                StyleClass="result"
+                Text="12"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Roll Dice"
+                    Clicked="OnRollTwoDice" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

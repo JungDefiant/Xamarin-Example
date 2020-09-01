@@ -33,5 +33,10 @@ namespace Example_Xamarin_App
             }
             editor.Text = string.Empty;
         }
+
+        async void OnDiceRollButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new DiceRollerPage());
+        }
     }
 }
