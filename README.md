@@ -31,13 +31,13 @@ Once downloaded, you can either use Visual Studio 2019 (or greater) to build the
 ## Visuals TODO
 
 ### Homepage
-![Homepage](https://via.placeholder.com/500x250)
+![Homepage](./Home.png)
 
 ### Homepage With Notes
-![NotesAdded](https://via.placeholder.com/500x250)
+![NotesAdded](./HomeNotes.png)
 
 ### Dice Roller Page
-![DiceRolled](https://via.placeholder.com/500x250)
+![DiceRolled](./DiceRoller.png)
 
 
 ## Change Log
